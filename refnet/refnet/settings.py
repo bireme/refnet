@@ -149,7 +149,13 @@ INSTALLED_APPS = (
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
 
+    # other apps
     'rosetta',
+    'django_extensions',
+
+    # project apps
+    'utils',
+    'request',
 )
 
 # A sample logging configuration. The only tangible logging
